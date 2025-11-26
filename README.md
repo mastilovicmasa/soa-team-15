@@ -1,11 +1,12 @@
 # 📌 Project Overview
 
-**Trail Explorer** is a microservices-based web application built as a **student project** for the *Service-Oriented Architectures* course.  
+**Explorer** is a microservices-based web application built as a **student project** for the *Service-Oriented Architectures* course.  
 The system demonstrates a complete service-oriented platform containing independently deployable services, containerization, event-driven communication, and advanced architectural concepts such as **API Gateway**, **SAGA pattern**, **gRPC**, **NoSQL databases**, and **distributed monitoring/tracing**.
 
 The platform supports three roles: **Administrator**, **Guide**, and **Tourist**, and provides functionalities such as user management, blog creation, tour creation, tour purchasing, following users, map interaction, and real-time tour execution tracking.
 
-The project was developed through multiple coursework milestones, each introducing new architectural requirements and complexity.
+The project was developed through multiple coursework milestones, each introducing new architectural requirements and complexity. It was created as a team project involving four students, with each team member responsible for implementing a distinct subset of functionalities and microservices.
+
 
 
 # 📌 System Architecture (Short Summary)
@@ -49,4 +50,18 @@ I contributed to both functional features and technical infrastructure across se
 ## 🔹 Technical Contributions
 - **Dockerized** multiple services and contributed to the Docker Compose environment  
 - Migrated two REST endpoints to **gRPC**  
-- Implemented a **SAGA pattern** using **NATS** for distributed workflow coordination  
+- Implemented a **SAGA pattern** using **NATS** for distributed workflow coordination
+
+# 📌 How to Run
+
+To run the entire microservices system locally, follow the steps below.
+
+1️⃣ Start All Services
+
+First, start the full system using the main Docker Compose configuration:
+docker-compose up --build
+
+2️⃣ Execute migrations
+Wait for all microservices, databases, message broker (NATS), and the API Gateway to fully start. Then run the database migrations required for the C# services:
+docker-compose -f docker-compose-migration.yml up
+
