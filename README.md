@@ -48,7 +48,8 @@ I contributed to both functional features and technical infrastructure across se
 - Implemented the full **tour session lifecycle**: start, activity tracking, completion/abandoning  
 - Added periodic **proximity checks** for completing key points during the tour  
 - Supported execution of **published and archived tours**, enforcing purchase requirements
-<img width="1920" height="896" alt="tour_execution_in_positon_simulator" src="https://github.com/user-attachments/assets/06a539b2-497c-44ca-8a0b-db010bf1060d" />
+<img width="1600" height="900" alt="tour_execution_in_positon_simulator" src="https://github.com/user-attachments/assets/0391806e-2f90-4747-a2e0-f3755b5e7df1" />
+
 
 
 
