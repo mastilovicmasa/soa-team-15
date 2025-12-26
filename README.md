@@ -36,7 +36,7 @@ I contributed to both functional features and technical infrastructure across se
 - Implemented **admin user blocking** functionality  
 - Developed user **profile viewing** (name, surname, profile image, biography, motto)  
 - Implemented **profile editing**, including validation and image updates  
-<img width="1600" height="900" alt="user_profile" src="https://github.com/user-attachments/assets/358d31ea-b55d-4a52-9635-9ddc8ff121de" />
+<img width="1920" height="896" alt="user_profile" src="https://github.com/user-attachments/assets/73b50870-9a14-487b-bd2b-e57460a7d76a" />
 
 
 ## 🔹 Position Simulator
@@ -48,7 +48,8 @@ I contributed to both functional features and technical infrastructure across se
 - Implemented the full **tour session lifecycle**: start, activity tracking, completion/abandoning  
 - Added periodic **proximity checks** for completing key points during the tour  
 - Supported execution of **published and archived tours**, enforcing purchase requirements
-<img width="1600" height="900" alt="tour_execution_in_positon_simulator" src="https://github.com/user-attachments/assets/8424e619-5f25-4454-a893-bf553aef5a83" />
+<img width="1920" height="896" alt="tour_execution_in_positon_simulator" src="https://github.com/user-attachments/assets/06a539b2-497c-44ca-8a0b-db010bf1060d" />
+
 
 
 
