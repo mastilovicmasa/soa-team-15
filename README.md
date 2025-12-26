@@ -8,7 +8,6 @@ The platform supports three roles: **Administrator**, **Guide**, and **Tourist**
 The project was developed through multiple coursework milestones, each introducing new architectural requirements and complexity. It was created as a team project involving four students, with each team member responsible for implementing a distinct subset of functionalities and microservices.
 
 
-
 # 📌 System Architecture (Short Summary)
 
 The application consists of several independent microservices:
@@ -48,10 +47,9 @@ I contributed to both functional features and technical infrastructure across se
 - Implemented the full **tour session lifecycle**: start, activity tracking, completion/abandoning  
 - Added periodic **proximity checks** for completing key points during the tour  
 - Supported execution of **published and archived tours**, enforcing purchase requirements
+
+The screenshot below shows the integrated map-based position simulator and active tour execution view, where simulated coordinates feed into the tour progress tracking logic.
 <img width="1600" height="900" alt="tour_execution_in_positon_simulator" src="https://github.com/user-attachments/assets/cc749df8-efd3-468b-b9a6-8a4aab384c31" />
-
-
-
 
 
 
