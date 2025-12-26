@@ -23,6 +23,8 @@ The application consists of several independent microservices:
 Each service maintains its own **SQL or NoSQL database**, runs independently, and communicates using REST, gRPC, or asynchronous event-based communication depending on the module.
 
 All services are fully **containerized with Docker**, and the entire system is orchestrated through **Docker Compose**, which coordinates services, databases, and inter-service networking.
+<img width="1600" height="900" alt="docker_containers_running" src="https://github.com/user-attachments/assets/08bf80e4-c62b-42d4-80ee-4d46d5197add" />
+
 
 
 # 📌 My Contribution
@@ -34,6 +36,7 @@ I contributed to both functional features and technical infrastructure across se
 - Implemented **admin user blocking** functionality  
 - Developed user **profile viewing** (name, surname, profile image, biography, motto)  
 - Implemented **profile editing**, including validation and image updates  
+<img width="1600" height="900" alt="user_profile" src="https://github.com/user-attachments/assets/358d31ea-b55d-4a52-9635-9ddc8ff121de" />
 
 
 ## 🔹 Position Simulator
@@ -44,7 +47,9 @@ I contributed to both functional features and technical infrastructure across se
 ## 🔹 Tour Execution
 - Implemented the full **tour session lifecycle**: start, activity tracking, completion/abandoning  
 - Added periodic **proximity checks** for completing key points during the tour  
-- Supported execution of **published and archived tours**, enforcing purchase requirements  
+- Supported execution of **published and archived tours**, enforcing purchase requirements
+<img width="1600" height="900" alt="tour_execution_in_positon_simulator" src="https://github.com/user-attachments/assets/8424e619-5f25-4454-a893-bf553aef5a83" />
+
 
 
 ## 🔹 Technical Contributions
@@ -62,6 +67,7 @@ First, start the full system using the main Docker Compose configuration:
 docker-compose up --build
 
 2️⃣ Execute migrations
+
 Wait for all microservices, databases, message broker (NATS), and the API Gateway to fully start. Then run the database migrations required for the C# services:
 docker-compose -f docker-compose-migration.yml up
 
