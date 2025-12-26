@@ -57,8 +57,8 @@ I contributed to both functional features and technical infrastructure across se
 
 ## 🔹 Technical Contributions
 - **Dockerized** multiple services and contributed to the Docker Compose environment  
-- Migrated two REST endpoints to **gRPC**  
-- Implemented a **SAGA pattern** using **NATS** for distributed workflow coordination
+- Migrated two REST endpoints to **gRPC**
+- Implemented a **SAGA-based workflow** for *Tour Execution* using **NATS**, with **Tour Service** and **Payments Service** acting as participants (payment validation & locking, execution creation, activation, and compensation)
 
 # 📌 How to Run
 
